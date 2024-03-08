@@ -3,15 +3,13 @@
 ## Getting Started
 
 Clone the repository:
-#TODO update l'url
 ```bash
-git clone https://github.com/BearStudio/...
+git clone https://github.com/AzizOuertani/BearForge.git
 ```
 
 Install dependencies:
-#TODO update the project name 
 ```bash
-cd ....
+cd BearForge
 npm install
 ```
 
