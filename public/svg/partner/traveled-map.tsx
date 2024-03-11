@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const TraveledMapLogo = (props) => (
+export const TraveledMapLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={49}
     height={49}

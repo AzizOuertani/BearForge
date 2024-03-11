@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const FormizLogo = (props) => (
+export const FormizLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={49}
     height={49}

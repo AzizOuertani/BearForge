@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const InstagramLogo = (props) => (
+export const InstagramLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={41}
     height={40}

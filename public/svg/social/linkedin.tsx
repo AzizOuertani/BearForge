@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const FacebookLogo = (props) => (
+export const LinkedInLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={41}
     height={40}
@@ -12,7 +12,7 @@ export const FacebookLogo = (props) => (
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M40.317 0h-40v40h40V0ZM28.984 20l-.89 5.555H23.65V40h-6.666V25.555h-5V20h5v-4.444c0-5 3.222-7.778 7.777-7.778 1.445 0 3 .222 4.445.444v5.111H26.65c-2.444 0-3 1.223-3 2.778V20h5.334Z"
+        d="M40.317 0h-40v40h40V0ZM9.295 12.422a3.47 3.47 0 1 0 0-6.94 3.47 3.47 0 0 0 0 6.94Zm6.648 2.565h5.75v2.634s1.561-3.121 5.808-3.121c3.787 0 6.925 1.866 6.925 7.553v11.994h-5.96v-10.54c0-3.356-1.79-3.725-3.156-3.725-2.832 0-3.317 2.444-3.317 4.162v10.103h-6.05v-19.06Zm-3.623 0H6.27v19.06h6.05v-19.06Z"
         fill="currentColor"
       />
     </g>

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const TwitterLogo = (props) => (
+export const TwitterLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={41}
     height={40}
@@ -18,7 +18,7 @@ export const TwitterLogo = (props) => (
     </g>
     <defs>
       <clipPath id="a">
-        <rect width="40" height="40" rx="8" fill="none" {...props} />
+        <rect width="40" height="40" rx="8" fill="none" />
       </clipPath>
     </defs>
   </svg>

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const YouTubeLogo = (props) => (
+export const YouTubeLogo = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width={41}
     height={40}

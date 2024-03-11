@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const BearForgeLogo = (props) => (
+export const BearForgeLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={344}
     height={45}

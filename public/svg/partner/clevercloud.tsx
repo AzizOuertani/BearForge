@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const CleverCloudLogo = (props) => (
+export const CleverCloudLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={49}
     height={49}

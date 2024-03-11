@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const WebLogo = (props) => (
+export const WebLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={40}
     height={40}

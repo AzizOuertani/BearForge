@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const BearHiveLogo = (props) => (
+export const BearHiveLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={49}
     height={49}

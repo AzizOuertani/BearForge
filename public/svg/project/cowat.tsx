@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-export const CowatLogo = (props) => (
+export const CowatLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={49}
     height={49}

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { SVGProps } from "react";
 
-const BearIllustration = (props) => (
+const BearIllustration = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={380}
     height={305}
