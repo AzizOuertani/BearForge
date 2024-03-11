@@ -66,7 +66,7 @@ export const partners = [
   {
     name: "CamelStudio",
     description:
-      "Web and mobile development studio based in Tunis which supports you in your projects, whether for one-off support or a complete design.",
+      "Web and mobile development studio based in Tunis which supports you in your projects,from occasional support to complete project realization.",
     imageUrl: "/images/partners/CamelStudio-background.png",
     linkedinUrl: "https://www.linkedin.com/company/camelstudio/",
     projectLogo: <CamelStudioLogo />,
