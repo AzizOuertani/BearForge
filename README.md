@@ -1,13 +1,15 @@
-# Web Starter / Landing Page with Next.js + Tailwind CSS + TypeScript
+# Bearforge website
 
 ## Getting Started
 
 Clone the repository:
+
 ```bash
 git clone https://github.com/AzizOuertani/BearForge.git
 ```
 
 Install dependencies:
+
 ```bash
 cd BearForge
 npm install
@@ -19,15 +21,29 @@ Run the development server:
 npm run dev
 ```
 
+## Add projects or partners
+
+1. Add a background image under `/public/images/partners` || `/public/images/projects`
+2. Create a React component that contains the logo in SVG format under `/public/svg/partner` || `/public/svg/project`
+3. Access the `src/data/partners.tsx` || `src/data/projects.tsx`  file and add the following:
+
+```javascript
+   {
+    name: "partner_project_name",
+    description: "partner_project_description",
+    imageUrl: "/images/partners/clevercloud-background.png",
+    twitterUrl: "twitter URL",
+    githubUrl: "GitHub URL",
+    linkedinUrl: "LinkedIn URL",
+    projectLogo: <projectLogo />,
+    button: "Visit Website",
+    buttonUrl: "website URL",
+  }
+```
+
+
+
 ## Project Configuration
-
-#### Change Title, Description, and Application URL
-
-Open the file `src/constants/config.ts` and modify the title, description, and URL of your application.
-
-#### Configure Favicon
-
-Generate your own favicon using RealFaviconGenerator, then copy it to the `/public/favicon` folder
 
 #### Configure Fonts
 
