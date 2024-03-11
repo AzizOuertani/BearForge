@@ -6,7 +6,6 @@ export default function Hero() {
     <div className="relative overflow-hidden pb-52">
       <div className="absolute left-0 top-0 z-10 h-full w-full">
         <NextImage
-          useSkeleton
           src="/images/hero-background.webp"
           fill
           style={{ objectFit: "cover" }}

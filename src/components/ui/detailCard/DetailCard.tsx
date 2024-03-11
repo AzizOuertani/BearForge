@@ -23,7 +23,6 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
   return (
     <li className="relative z-50 overflow-hidden rounded-2xl  shadow-2xl duration-300   hover:translate-y-1 hover:shadow-lg">
       <NextImage
-        useSkeleton
         src={DetailCardData.imageUrl}
         fill
         priority={false}
