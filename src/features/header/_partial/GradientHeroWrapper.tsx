@@ -8,16 +8,9 @@ type GradientHeroWrapperProps = {
 const GradientHeroWrapper: React.FC<GradientHeroWrapperProps> = ({
   children,
 }) => (
-  <div style={{ position: "relative", width: "100%", height: "140%" }}>
-    <GradientHero
-      style={{
-        position: "absolute",
-        width: "100%",
-        height: "120%",
-        zIndex: 40,
-      }}
-    />
-    <div style={{ position: "relative" }}>{children}</div>
+  <div className="relative h-[140%] w-full">
+    <GradientHero className="absolute z-40 h-[120%] w-full bg-gradient-to-b" />
+    <div className="relative">{children}</div>
   </div>
 );
 
