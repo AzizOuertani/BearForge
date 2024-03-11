@@ -3,7 +3,10 @@ import React from "react";
 
 import NextImage from "@/components/ui/image/NextImage";
 
+import { FacebookLogo } from "~/svg/social/facebook";
 import { GithubLogo } from "~/svg/social/github";
+import { LinkedInLogo } from "~/svg/social/linkedin";
+import { TwitchLogo } from "~/svg/social/twitch";
 import { TwitterLogo } from "~/svg/social/twitter";
 import { YouTubeLogo } from "~/svg/social/youtube";
 type DetailCardProps = {
@@ -13,6 +16,9 @@ type DetailCardProps = {
   githubUrl?: string;
   twitterUrl?: string;
   youtubeUrl?: string;
+  linkedinUrl?: string;
+  twitchUrl?: string;
+  facebookUrl?: string;
   projectLogo: JSX.Element;
   button: string;
   buttonUrl: string;
@@ -74,6 +80,39 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 >
                   <span className="sr-only">YouTube</span>
                   <YouTubeLogo className="rounded-lg" />
+                </a>
+              </li>
+            )}
+            {DetailCardData.linkedinUrl && (
+              <li>
+                <a
+                  href={DetailCardData.linkedinUrl}
+                  className="text-white hover:text-gray-200"
+                >
+                  <span className="sr-only">LinkedIn</span>
+                  <LinkedInLogo className="rounded-lg" />
+                </a>
+              </li>
+            )}
+            {DetailCardData.twitchUrl && (
+              <li>
+                <a
+                  href={DetailCardData.twitchUrl}
+                  className="text-white hover:text-gray-200"
+                >
+                  <span className="sr-only">Twitch</span>
+                  <TwitchLogo className="rounded-lg" />
+                </a>
+              </li>
+            )}
+            {DetailCardData.facebookUrl && (
+              <li>
+                <a
+                  href={DetailCardData.facebookUrl}
+                  className="text-white hover:text-gray-200"
+                >
+                  <span className="sr-only">Facebook</span>
+                  <FacebookLogo className="rounded-lg" />
                 </a>
               </li>
             )}
