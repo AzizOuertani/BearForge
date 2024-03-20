@@ -55,6 +55,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 <a
                   href={DetailCardData.twitterUrl}
                   className="text-white hover:text-gray-200"
+                  target="_blank"
                 >
                   <span className="sr-only">Twitter</span>
                   <TwitterLogo className="rounded-lg" />
@@ -66,6 +67,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 <a
                   href={DetailCardData.githubUrl}
                   className="text-white hover:text-gray-200"
+                  target="_blank"
                 >
                   <span className="sr-only">GitHub</span>
                   <GithubLogo className="rounded-lg" />
@@ -77,6 +79,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 <a
                   href={DetailCardData.youtubeUrl}
                   className="text-white hover:text-gray-200"
+                  target="_blank"
                 >
                   <span className="sr-only">YouTube</span>
                   <YouTubeLogo className="rounded-lg" />
@@ -88,6 +91,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 <a
                   href={DetailCardData.linkedinUrl}
                   className="text-white hover:text-gray-200"
+                  target="_blank"
                 >
                   <span className="sr-only">LinkedIn</span>
                   <LinkedInLogo className="rounded-lg" />
@@ -99,6 +103,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 <a
                   href={DetailCardData.twitchUrl}
                   className="text-white hover:text-gray-200"
+                  target="_blank"
                 >
                   <span className="sr-only">Twitch</span>
                   <TwitchLogo className="rounded-lg" />
@@ -110,6 +115,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
                 <a
                   href={DetailCardData.facebookUrl}
                   className="text-white hover:text-gray-200"
+                  target="_blank"
                 >
                   <span className="sr-only">Facebook</span>
                   <FacebookLogo className="rounded-lg" />
@@ -120,6 +126,7 @@ const DetailCard: React.FC<{ DetailCardData: DetailCardProps }> = ({
           <a
             href={DetailCardData.buttonUrl}
             className="inline-flex h-12 items-center rounded-md border border-transparent bg-white px-6 text-lg font-medium text-gray-900 shadow-sm hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+            target="_blank"
           >
             {DetailCardData.button}
             <ChevronRight className="-mr-1 ml-3 h-5 w-5" aria-hidden="true" />
