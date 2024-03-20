@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <GradientHeroWrapper>
       <Hero />
+      <div className="z-20 h-5 bg-gradient-to-b from-gray-50 to-white" />
     </GradientHeroWrapper>
   );
 };
