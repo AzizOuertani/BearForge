@@ -8,7 +8,7 @@ export const projects = [
     description:
       "Multi steps form logic available out of the box! No more pain to build perfect UX for complex forms.",
     imageUrl: "/images/projects/formiz-background.png",
-    githubUrl: "https://github.com/ivan-dalmet/formiz",
+    githubUrl: "https://github.com/BearStudio/formiz",
     projectLogo: <FormizLogo />,
     button: "Visit website",
     buttonUrl: "https://formiz-react.com/",
