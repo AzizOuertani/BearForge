@@ -5,7 +5,7 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/AzizOuertani/BearForge.git
+git clone https://github.com/BearStudio/BearForge_migration.git
 ```
 
 Install dependencies:
